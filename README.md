@@ -3,16 +3,18 @@
 手工搭建的Transformer模型，在小规模文本建模任务上进行训练和消融实验。
 
 ## 项目结构
+```text
 transformer-ablation-study/
-├── src/ # 源代码
-│ ├── models/ # 模型定义
-│ ├── data/ # 数据加载
-│ ├── training/ # 训练逻辑
-│ └── utils/ # 工具函数
-├── scripts/ # 运行脚本
-├── results/ # 实验结果
-├── requirements.txt # 依赖包
-└── README.md # 说明文档
+├── src/                    # 源代码
+│   ├── models/            # 模型定义
+│   ├── data/              # 数据加载
+│   ├── training/          # 训练逻辑
+│   └── utils/             # 工具函数
+├── scripts/               # 运行脚本
+├── results/               # 实验结果
+├── requirements.txt       # 依赖包
+└── README.md              # 说明文档
+```
 
 
 
@@ -70,12 +72,12 @@ python main.py  # 默认使用种子42
 ## 实验设置
 
 消融实验包含以下变体：
-• baseline: 基准模型 (4层, 8头, 256维)
-• small_layers: 减少层数 (2层)
-• small_heads: 减少注意力头数 (4头)
-• small_dim: 减小模型维度 (128维)
-• no_pos_encoding: 移除位置编码
-• tiny_model: 超小模型 (2层, 4头, 128维)
+- baseline: 基准模型 (4层, 8头, 256维)
+- small_layers: 减少层数 (2层)
+- small_heads: 减少注意力头数 (4头)
+- small_dim: 减小模型维度 (128维)
+- no_pos_encoding: 移除位置编码
+- tiny_model: 超小模型 (2层, 4头, 128维)
 
 ## 预期结果
 
