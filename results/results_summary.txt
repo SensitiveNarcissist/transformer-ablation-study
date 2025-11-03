@@ -1,0 +1,32 @@
+TRANSFORMER ABLATION STUDY RESULTS
+==================================================
+
+BASELINE
+  Final Perplexity: 3.0180
+  Final Val Loss: 1.1046
+  Parameters: 7.4M
+
+SMALL_LAYERS
+  Final Perplexity: 1.2966
+  Final Val Loss: 0.2597
+  Parameters: 3.7M
+
+SMALL_HEADS
+  Final Perplexity: 3.1393
+  Final Val Loss: 1.1440
+  Parameters: 7.4M
+
+SMALL_DIM
+  Final Perplexity: 5.7394
+  Final Val Loss: 1.7474
+  Parameters: 1.9M
+
+NO_POS_ENCODING
+  Final Perplexity: 2.8963
+  Final Val Loss: 1.0634
+  Parameters: 7.4M
+
+TINY_MODEL
+  Final Perplexity: 6.1245
+  Final Val Loss: 1.8123
+  Parameters: 0.9M
