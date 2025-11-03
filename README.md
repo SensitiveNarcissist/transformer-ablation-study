@@ -42,7 +42,8 @@ transformer-ablation-study/
 ## 安装和运行
 
 ### 1. 克隆仓库
-git clone <repository-url>
+git clone https://github.com/SensitiveNarcissist/transformer-ablation-study
+
 cd transformer-ablation-study
 
 ### 2. 安装依赖
